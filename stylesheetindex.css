@@ -2,6 +2,15 @@ html{
   background-color: #10001C;
   scroll-behavior: smooth;
 }
+
+/* .soleil{
+  display: block;
+  float: left;
+  margin-left: 133px;
+  position: fixed;
+  background-color: rgba(16,0,28,0.7);
+} */
+
 nav{
     font-family: sans-serif;
     width: 80%;
@@ -9,6 +18,8 @@ nav{
     position: sticky;
     top: 0px;
     margin-bottom: 70px;
+    font-size: 22px;
+    background-color: rgba(16,0,28,0.7);
 }
 
 nav ul{
@@ -16,8 +27,9 @@ nav ul{
 }
 
 nav ul li{
+  margin-top: 7px;
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
     position: relative;
 }
@@ -67,7 +79,7 @@ nav > ul li:hover .sous{
 }
 .deroulant > a::after{
     content:" ▼";
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .conteneur{
@@ -77,6 +89,12 @@ nav > ul li:hover .sous{
 
 .pageacceuil {
   display: flex;
+}
+.cyberlympia{
+  background: rgb(255,254,0);
+  background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,0,187,1) 40%, rgba(44,0,77,1) 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .texte{
@@ -116,7 +134,7 @@ nav > ul li:hover .sous{
 footer{
   display: grid;
   grid-template-columns: 3 1fr 1fr 1fr;
-  margin-top: 200px;
+  margin-top: 150px;
   padding: 50px;
   background: purple;
   text-align: center;
@@ -126,16 +144,18 @@ footer{
 
 .petit1{
   grid-column: 1;
+  text-align: right;
 }
 .petit2{
   grid-column: 2;
 }
 .petit3{
   grid-column: 3;
+  text-align: left;
 }
 
 .ifm{
-  margin-top: 50px;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 70px;
 }
