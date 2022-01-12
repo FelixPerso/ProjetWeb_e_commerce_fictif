@@ -1,17 +1,12 @@
 body {
   margin:auto;
   font-family: sans-serif;
-   background color: black;
 }
 html {
    scroll-behavior: smooth;
-   background-color: black;
+   background-color: #0D0016;
   }
-img{
-  width: 150px;
-  height: 150px;
-  float:right;
-}
+
 #titre1 {
   background: #EFEFEF;
   text-align: center;
@@ -74,6 +69,7 @@ nav a:hover{
 }
 nav > ul li:hover .sous{
     display: block;
+    background-color: #10001C;
 }
 .sous li{
     float: none;
@@ -97,14 +93,9 @@ nav > ul li:hover .sous{
   margin: 50px 20px;
   height: 1800px;
 }
-section{
-  display: grid;
-  grid-column-start: 1fr;
-  grid-column-end: 3fr;
-  background: blue;
-  column-gap: 100px;
-}
-footer{
-  display: grid;
-  background: red;
+#hautpage{
+  display: block;
+  width: 150px;
+  height: 150px;
+  float:right;
 }
