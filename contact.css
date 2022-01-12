@@ -1,18 +1,16 @@
 body {
-  width: 960px;
   margin:auto;
   font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+   background color: black;
 }
+html {
+   scroll-behavior: smooth;
+   background-color: black;
+  }
 img{
   width: 150px;
   height: 150px;
   float:right;
-}
-header{
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 #titre1 {
   background: #EFEFEF;
@@ -24,17 +22,80 @@ header{
   grid-column-start: 1;
   grid-column-end: 3;
 }
-#listenav {
-  list-style-type: none;
-  text-align: center;
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
 }
-li {
-  display: inline-block;
-  margin-left:1em;
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
 }
-a {
-text-decoration-style: dashed;
-color: #08c;
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: purple;
+    border-bottom: 2px solid purple;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1800px;
 }
 section{
   display: grid;
