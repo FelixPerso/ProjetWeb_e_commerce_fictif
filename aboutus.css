@@ -1,0 +1,103 @@
+html {
+  background-color: #10001C;
+  scroll-behavior: smooth;
+}
+nav {
+    font-family: sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: pink;
+    border-bottom: 2px solid purple;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous {
+    display: block;
+}
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover {
+    border-bottom: none;
+}
+.deroulant > a::after {
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur {
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+.texte {
+  flex:1;
+  font-size: 72px;
+  background: rgb(255,0,209);
+  background: linear-gradient(90deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-size: 45px;
+  padding-left: 130px;
+  padding-top: 220px;
+}
+
+.styled {
+  font-family: sans-serif;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 70px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  background: rgb(255,0,209);
+  background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+}
+p{
+  text-align: center;
+}

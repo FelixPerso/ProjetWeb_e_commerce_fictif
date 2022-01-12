@@ -1,0 +1,110 @@
+body{
+  background: #0D0016;
+  margin:auto;
+font-family: sans-serif;
+
+}
+.box{
+  width: 1500px;
+  margin: 200px auto;
+  background: #fff;
+  border-radius: 7px;
+}
+
+
+
+.box .heading{
+  background: #7800CF;
+  font-size: 70px;
+  padding: 10px;
+  text-align: center;
+}
+
+.faq{
+  padding: 10px 20px;
+}
+
+.texte{
+  font-size: 20px;
+}
+details{
+  background : #f6f6f6;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+
+
+
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: purple;
+    border-bottom: 2px solid purple;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+    background-color: #10001C;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1800px;
+}
