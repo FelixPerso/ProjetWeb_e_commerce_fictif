@@ -8,6 +8,7 @@ nav{
     margin: 0 auto;
     position: sticky;
     top: 0px;
+    margin-bottom: 70px;
 }
 
 nav ul{
@@ -36,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-    color: pink;
+    color: #dd77ff;
     border-bottom: 2px solid purple;
 }
 
@@ -49,6 +50,8 @@ nav a:hover{
 
 nav > ul li:hover .sous{
     display: block;
+    background-color: #10001C;
+
 }
 .sous li{
     float: none;
@@ -79,13 +82,13 @@ nav > ul li:hover .sous{
 .texte{
   flex:1;
   font-size: 72px;
-  background: rgb(255,0,209);
-  background: linear-gradient(90deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+  background: rgb(213,6,255);
+  background: radial-gradient(circle, rgba(213,6,255,1) 0%, rgba(255,0,123,1) 35%, rgba(255,231,19,1) 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: sans-serif;
   font-size: 45px;
-  padding-left: 130px;
+  padding-left: 170px;
   padding-top: 220px;
 }
 
@@ -96,6 +99,7 @@ nav > ul li:hover .sous{
 }
 
 .styled {
+  margin-top: 80px;
   font-family: sans-serif;
   border: 0;
   line-height: 2.5;
@@ -106,4 +110,32 @@ nav > ul li:hover .sous{
   border-radius: 30px;
   background: rgb(255,0,209);
   background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+}
+
+
+footer{
+  display: grid;
+  grid-template-columns: 3 1fr 1fr 1fr;
+  margin-top: 200px;
+  padding: 50px;
+  background: purple;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.petit1{
+  grid-column: 1;
+}
+.petit2{
+  grid-column: 2;
+}
+.petit3{
+  grid-column: 3;
+}
+
+.ifm{
+  margin-top: 50px;
+  height: 80px;
+  width: 80px;
 }
