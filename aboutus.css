@@ -98,6 +98,50 @@ nav > ul li:hover .sous {
   background: rgb(255,0,209);
   background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
 }
+#hautpage{
+  position: sticky;
+  display: block;
+  width: 150px;
+  height: 150px;
+  float:right;
+}
 p{
   text-align: center;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.conteneur1{
+  display: block;
+  margin: 50px 20px;
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.conteneur2{
+  display: block;
+  margin: 50px 20px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.conteneur3{
+  display: block;
+  margin: 50px 20px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: green;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+*{
+  color: white;
 }

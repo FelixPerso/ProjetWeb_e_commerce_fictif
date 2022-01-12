@@ -6,24 +6,12 @@ html {
    scroll-behavior: smooth;
    background-color: #0D0016;
   }
-
-#titre1 {
-  background: #EFEFEF;
-  text-align: center;
-  padding: 10px;
-}
-#titre2{
-  text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
 /*Reset CSS*/
 *{
     margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
-
 nav{
     width: 80%;
     margin: 0 auto;
@@ -88,14 +76,13 @@ nav > ul li:hover .sous{
     content:" ▼";
     font-size: 12px;
 }
-
-.conteneur{
-  margin: 50px 20px;
-  height: 1800px;
-}
 #hautpage{
+  position: sticky;
   display: block;
   width: 150px;
   height: 150px;
   float:right;
+}
+*{
+  color: white;
 }
