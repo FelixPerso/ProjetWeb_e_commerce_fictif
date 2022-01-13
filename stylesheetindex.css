@@ -110,15 +110,16 @@ nav > ul li:hover .sous{
 }
 
 .styled {
-  margin-top: 30px;
+  margin-top: 3rem;
   font-family: sans-serif;
   border: 0;
   line-height: 2.5;
-  padding: 0 70px;
+  padding: 0 7rem;
   font-size: 2rem;
   text-align: center;
+  font-weight: bold;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 4rem;
   background: rgb(255,0,209);
   background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
 }

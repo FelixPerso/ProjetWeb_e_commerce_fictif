@@ -4,11 +4,10 @@ body{
   font-family: sans-serif;
 }
 .heading{
-  background: #7800CF;
-  width: 1400px;
+  background: purple;
+  width: 1350px;
   margin: 100px auto;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 38px;
   text-align: center;
   border-radius: 9px;
 }
