@@ -3,14 +3,6 @@ html{
   scroll-behavior: smooth;
 }
 
-/* .soleil{
-  display: block;
-  float: left;
-  margin-left: 133px;
-  position: fixed;
-  background-color: rgba(16,0,28,0.7);
-} */
-
 nav{
     font-family: sans-serif;
     width: 80%;
