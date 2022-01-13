@@ -1,22 +1,17 @@
-body {
-  margin:auto;
-  font-family: sans-serif;
+html{
+  background-color: #10001C;
+  scroll-behavior: smooth;
 }
-html {
-   scroll-behavior: smooth;
-   background-color: #0D0016;
-  }
-/*Reset CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
-}
+
 nav{
+    font-family: sans-serif;
     width: 80%;
     margin: 0 auto;
     position: sticky;
     top: 0px;
+    margin-bottom: 70px;
+    font-size: 22px;
+    background-color: rgba(16,0,28,0.7);
 }
 
 nav ul{
@@ -24,8 +19,9 @@ nav ul{
 }
 
 nav ul li{
+  margin-top: 7px;
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
     position: relative;
 }
@@ -45,7 +41,7 @@ nav a{
 }
 
 nav a:hover{
-    color: purple;
+    color: #dd77ff;
     border-bottom: 2px solid purple;
 }
 
@@ -55,9 +51,11 @@ nav a:hover{
     width: 100%;
     z-index: 1000;
 }
+
 nav > ul li:hover .sous{
     display: block;
     background-color: #10001C;
+
 }
 .sous li{
     float: none;
@@ -70,11 +68,43 @@ nav > ul li:hover .sous{
 }
 .sous a:hover{
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
 }
 .deroulant > a::after{
     content:" ▼";
-    font-size: 12px;
+    font-size: 16px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+footer{
+  display: grid;
+  grid-template-columns: 3 1fr 1fr 1fr;
+  margin-top: 150px;
+  padding: 50px;
+  background: purple;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.petit1{
+  grid-column: 1;
+  text-align: right;
+}
+.petit2{
+  grid-column: 2;
+}
+.petit3{
+  grid-column: 3;
+  text-align: left;
+}
+
+.ifm{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 70px;
 }
 #hautpage{
   position: sticky;
@@ -85,4 +115,10 @@ nav > ul li:hover .sous{
 }
 *{
   color: white;
+}
+#contact{
+  background: rgb(255,254,0);
+  background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,0,187,1) 40%, rgba(44,0,77,1) 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

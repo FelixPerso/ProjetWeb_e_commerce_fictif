@@ -117,10 +117,6 @@ footer{
 p{
   text-align: center;
 }
-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 .conteneur1{
   display: block;
   margin: 50px 20px;
@@ -128,8 +124,8 @@ section{
   width: 500px;
   background-color: blue;
   border-radius: 10px;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column: 1;
+  text-align: right;
 }
 .conteneur2{
   display: block;
@@ -138,18 +134,18 @@ section{
   width: 500px;
   border-radius: 10px;
   background-color: red;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column: 2;
 }
 .conteneur3{
   display: block;
+  position: static;
   margin: 50px 20px;
   height: 500px;
   width: 500px;
   border-radius: 10px;
   background-color: green;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column: 3;
+  text-align: left;
 }
 *{
   color: white;
