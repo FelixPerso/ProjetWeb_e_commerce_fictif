@@ -3,42 +3,26 @@ body{
   margin:auto;
   font-family: sans-serif;
 }
-
-.box{
+.heading{
+  background: #7800CF;
   width: 1400px;
   margin: 100px auto;
-  background: #0D0016;
-  border-radius: 7px;
-}
-
-
-
-.box .heading{
-  background: #7800CF;
-  font-size: 70px;
+  font-size: 30px;
   padding: 10px;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 9px;
 }
-
-.faq{
-  padding: 10px 20px;
-}
-
-.texte{
-  font-size: 20px;
-}
-details{
+.explain{
   background : #f6f6f6;
+  width: 1700px;
+  margin: 100px auto;
   padding: 10px;
   border-radius: 7px;
+  text-align: left;
   margin-top: 20px;
   font-size: 30px;
 }
 
-summary{
-text-decoration: underline;
-}
 
 
 
@@ -157,7 +141,8 @@ footer{
   height: 150px;
   float:right;
 }
-#faq{
+
+#postuler{
   background: rgb(255,254,0);
   background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,0,187,1) 40%, rgba(44,0,77,1) 88%);
   -webkit-background-clip: text;
