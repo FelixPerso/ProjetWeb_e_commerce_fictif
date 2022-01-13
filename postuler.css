@@ -1,6 +1,10 @@
 html{
   background-color: #10001C;
   scroll-behavior: smooth;
+
+}
+body{
+  text-decoration-color: white;
 }
 
 nav{
