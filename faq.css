@@ -154,11 +154,10 @@ footer{
   margin-bottom: 70px;
 }
 #hautpage{
-  position: sticky;
-  display: block;
-  width: 150px;
-  height: 150px;
-  float:right;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  height: 70px;
 }
 #faq{
   background: rgb(255,254,0);

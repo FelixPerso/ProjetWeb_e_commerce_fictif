@@ -84,11 +84,6 @@ nav > ul li:hover .sous{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#sousjeux{
-  background: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 footer{
   display: grid;
@@ -164,4 +159,10 @@ background: radial-gradient(circle, rgba(225,63,251,1) 0%, rgba(255,237,255,1) 1
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 3rem;
+}
+#hautpage{
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  height: 70px;
 }
