@@ -9,7 +9,7 @@ nav{
     margin: 0 auto;
     position: sticky;
     top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 5rem;
     font-size: 22px;
     background-color: rgba(16,0,28,0.7);
 }
@@ -78,6 +78,18 @@ nav > ul li:hover .sous{
   margin: 50px 20px;
   height: 1500px;
 }
+#jeux{
+  background: rgb(255,254,0);
+  background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,0,187,1) 40%, rgba(44,0,77,1) 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sousjeux{
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 footer{
   display: grid;
   grid-template-columns: 3 1fr 1fr 1fr;
