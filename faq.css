@@ -11,15 +11,16 @@ body{
   border-radius: 7px;
 }
 
-
-
-.box .heading{
-  background: #7800CF;
-  font-size: 70px;
-  padding: 10px;
+.heading{
+  background: purple;
+  width: 1500px;
+  margin: 100px auto;
+  font-size: 38px;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 9px;
 }
+
+
 
 .faq{
   padding: 10px 20px;
