@@ -153,6 +153,7 @@ footer{
 .petit1{
   grid-column: 1;
   text-align: right;
+  color:white;
 }
 .petit2{
   grid-column: 2;
