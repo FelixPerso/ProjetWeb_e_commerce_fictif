@@ -109,20 +109,7 @@ nav > ul li:hover .sous{
   padding-right: 50px;
 }
 
-.styled {
-  margin-top: 3rem;
-  font-family: sans-serif;
-  border: 0;
-  line-height: 2.5;
-  padding: 0 7rem;
-  font-size: 2rem;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 4rem;
-  background: rgb(255,0,209);
-  background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
-}
+
 
 
 footer{
@@ -152,4 +139,79 @@ footer{
   height: 100px;
   width: 100px;
   margin-bottom: 70px;
+}
+
+
+
+.bout .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 37rem;
+}
+
+.bout .ul .li {
+    --c: rgb(255,0,209);
+    color: var(--c);
+    font-size: 25px;
+    border: 0.2em solid var(--c);
+    border-radius: 2em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+.bout .ul .li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.bout .ul .li:hover {
+    color: #10001C;
+}
+
+.bout .ul .li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.bout .ul .li span:nth-child(1) {
+    --n: 1;
+    background: rgb(255,0,209);
+    background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+}
+
+.bout .ul .li span:nth-child(2) {
+    --n: 2;
+    background: rgb(255,0,209);
+    background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+}
+
+.bout .ul .li span:nth-child(3) {
+    --n: 3;
+    background: rgb(255,0,209);
+    background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
+}
+
+.bout .ul .li span:nth-child(4) {
+    --n: 4;
+    background: rgb(255,0,209);
+    background: linear-gradient(1deg, rgba(255,0,209,1) 0%, rgba(253,29,73,1) 55%, rgba(255,221,8,1) 100%);
 }
