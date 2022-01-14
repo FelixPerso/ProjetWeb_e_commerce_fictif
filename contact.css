@@ -123,6 +123,73 @@ footer{
   bottom: 2rem;
   height: 70px;
 }
-*{
-  color: white;
+
+
+form {
+  position: relative;
+
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  background: white;
+}
+
+h1 {
+  position : absolute;
+  left : 415px;
+  top  : 185px;
+
+  font : 1em "typewriter", sans-serif;
+}
+
+#from {
+  position: absolute;
+  left : 398px;
+  top  : 235px;
+}
+
+#reply {
+  position: absolute;
+  left : 390px;
+  top  : 285px;
+}
+
+#message {
+  position: absolute;
+  left : 20px;
+  top  : 70px;
+}
+label {
+  font : .8em "typewriter", sans-serif;
+}
+input, textarea {
+  font    : .9em/1.5em "handwriting", sans-serif;
+
+  border  : none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 240px;
+
+  background: none;
+}
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+}
+input {
+    height: 2.5em; /* pour IE */
+    vertical-align: middle; /* optionnel mais donne meilleur aspect pour IE */
+}
+textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
 }
