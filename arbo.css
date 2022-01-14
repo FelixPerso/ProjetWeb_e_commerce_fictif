@@ -1,57 +1,3 @@
-head{
-  background: #0D0016;
-  margin:auto;
-  font-family: sans-serif;
-}
-.heading{
-  font-family: sans-serif;
-}
-.h1{
- color : white;
- width: 2000px;
- margin: 10px auto;
- font-size: 45px;
- text-decoration: underline ;
-}
-.h2{
- color : white;
- margin-top: 50px;
- font-size: 35px;
-}
-.h3{
- color : white;
- margin: 50px auto;
- font-size: 35px;
-}
-.h4{
- color : white;
- margin: 50px auto;
- font-size: 35px;
-}
-.h5{
- color : white;
- margin: 50px auto;
- font-size: 35px;
-}
-.p1{
- color : white;
- font-size: 30px;
-}
-.p2{
- color : white;
- font-size: 30px;
-}
-.p3{
- color : white;
- font-size: 30px;
-}
-.p4{
- color : white;
- font-size: 30px;
-}
-
-
-
 html{
   background-color: #10001C;
   scroll-behavior: smooth;
@@ -132,13 +78,17 @@ nav > ul li:hover .sous{
   margin: 50px 20px;
   height: 1500px;
 }
+
+.pageacceuil {
+  display: flex;
+  margin-left: 100px;
+}
 .cyberlympia{
   background: rgb(255,254,0);
   background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,0,187,1) 40%, rgba(44,0,77,1) 88%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 footer{
   display: grid;
   grid-template-columns: 3 1fr 1fr 1fr;
@@ -175,4 +125,12 @@ footer{
   right: 2rem;
   bottom: 2rem;
   height: 70px;
+}
+
+.txtarbo{
+  color: white;
+  margin-left: 2rem;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
 }
