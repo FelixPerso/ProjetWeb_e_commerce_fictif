@@ -179,8 +179,8 @@ input:focus, textarea:focus {
   outline      : none;
 }
 input {
-    height: 2.5em; /* pour IE */
-    vertical-align: middle; /* optionnel mais donne meilleur aspect pour IE */
+    height: 2.5em; 
+    vertical-align: middle; 
 }
 textarea {
   display : block;
