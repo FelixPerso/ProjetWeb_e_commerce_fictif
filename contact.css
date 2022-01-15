@@ -147,21 +147,21 @@ h1 {
   position: absolute;
   left : 398px;
   top  : 235px;
-  background-color: #9932CC;
+  background-color: #FFFAF0;
 }
 
 #reply {
   position: absolute;
   left : 390px;
   top  : 285px;
-  background-color: #9932CC;
+  background-color: #FFFAF0;
 }
 
 #message {
   position: absolute;
   left : 20px;
   top  : 70px;
-  background-color: #9932CC;
+  background-color: #FFFAF0;
 }
 label {
   font : .8em "typewriter", sans-serif;
