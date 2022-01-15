@@ -174,7 +174,7 @@ input, textarea {
   margin  : 0;
   width   : 240px;
 
-  background: #9932CC;
+  background: none;
 }
 input:focus, textarea:focus {
   background   : rgba(0,0,0,.1);
