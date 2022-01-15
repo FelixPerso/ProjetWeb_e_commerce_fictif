@@ -5,7 +5,7 @@ body{
 }
 .heading{
   background: purple;
-  width: 1350px;
+  width: 100%;
   margin: 100px auto;
   font-size: 38px;
   text-align: center;
@@ -13,7 +13,7 @@ body{
 }
 .explain{
   background : #f6f6f6;
-  width: 1700px;
+  width: 100%;
   margin: 100px auto;
   padding: 10px;
   border-radius: 7px;
@@ -99,7 +99,7 @@ nav > ul li:hover .sous{
 
 .conteneur{
   margin: 50px 20px;
-  height: 1500px;
+  height: 80%px;
 }b
 #jeux{
   background: rgb(255,254,0);
