@@ -173,7 +173,7 @@ input, textarea {
 
   background: none;
 }
-#fondtext {
+input:focus, textarea:focus {
   background   : rgba(0,0,0,.1);
   border-radius: 5px;
   outline      : none;
